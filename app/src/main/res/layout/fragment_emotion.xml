@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gvn.project311.menutesttoturial.gvn.project311.coffeeS.Example.FragmentComponent.EmotionFragment"
+    android:background="#ffffff">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:orientation="horizontal"
+            android:paddingLeft="18dp"
+            android:paddingRight="15dp">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Like"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Dislike"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Follow"
+                android:textStyle="bold"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#59940a"
+                android:gravity="center"
+                android:paddingLeft="3dp"
+                android:text="OPEN"
+                android:textColor="#fff"
+                android:textSize="14sp" />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

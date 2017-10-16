@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">coffeeS</string>
+    <string name="hint_text_desc_shop">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Isto modo ne improbos quidem, si essent boni viri. Summum ením bonum exposuit vacuitatem doloris.\nSi verbum sequimur, primum longius verbum praepositum quam bonum. Sed quod proximum fuit non vidit. Nam Pyrrho, Aristo, Erillus iam diu abiecti.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

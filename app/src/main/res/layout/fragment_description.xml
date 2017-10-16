@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gvn.project311.menutesttoturial.gvn.project311.coffeeS.Example.FragmentComponent.DescriptionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/editText_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:hint="@string/hint_text_desc_shop"
+        android:textColorHint="#515151"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="@android:color/background_dark"
+        android:textSize="14sp"
+        android:isScrollContainer="false"
+        android:gravity="start"
+        android:backgroundTint="@android:color/transparent"
+        android:focusableInTouchMode="false"
+        android:enabled="true"/>
+
+</FrameLayout>

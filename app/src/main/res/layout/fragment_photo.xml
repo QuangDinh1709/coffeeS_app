@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gvn.project311.menutesttoturial.gvn.project311.coffeeS.Example.FragmentComponent.PhotoFragment"
+    android:id="@+id/frame_photo">
+
+    <GridView
+        android:layout_marginTop="10dp"
+        android:id="@+id/gridview_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"></GridView>
+
+</FrameLayout>

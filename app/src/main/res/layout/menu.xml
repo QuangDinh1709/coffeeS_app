@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="10"
+        android:background="@drawable/border_box">
+
+        <ImageView
+            android:id="@+id/image_view_is_special"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/icon_star" />
+
+        <EditText
+            android:id="@+id/edit_text_name_menu"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:hint="Mon 1"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="#6d6d6d"
+            android:textColorHint="#6d6d6d"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/edit_text_price_menu"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="3"
+            android:hint="Gia"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            android:textColor="#6d6d6d"
+            android:textColorHint="#6d6d6d"
+            android:textSize="12dp" />
+
+        <ImageView
+            android:id="@+id/image_view_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/ic_remove_circle_black" />
+    </TableRow>
+</TableLayout>

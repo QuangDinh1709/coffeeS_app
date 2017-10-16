@@ -1,0 +1,116 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gvn.project311.menutesttoturial.gvn.project311.coffeeS.Example.FragmentComponent.InformationFragment"
+    android:background="#ffffff">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/table_layout_info_shop">
+
+        <TableRow
+            android:layout_weight="4"
+            android:paddingLeft="18dp"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:src="@drawable/ic_location_on" />
+
+            <EditText
+                android:id="@+id/editText_DiaChi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingLeft="14dp"
+                android:hint="Dia Chi"
+                android:textColorHint="#6d6d6d"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="#5f5f5f" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="4"
+            android:paddingLeft="18dp"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingLeft="0dp"
+                android:src="@drawable/ic_local_phone" />
+
+            <EditText
+                android:id="@+id/editText_DienThoai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:paddingLeft="14dp"
+                android:hint="Dien Thoai"
+                android:textSize="14sp"
+                android:textColorHint="#6d6d6d"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="#5f5f5f" />
+        </TableRow>
+        <TableRow
+            android:layout_weight="4"
+            android:paddingLeft="18dp"
+            android:paddingRight="15dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:paddingLeft="0dp"
+                android:src="@drawable/ic_access_time" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3">
+                <EditText
+                    android:id="@+id/editText_MoCua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="14dp"
+                    android:hint="Mo Cua"
+                    android:textSize="14sp"
+                    android:layout_weight="1.5"
+                    android:textColorHint="#6d6d6d"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColor="#5f5f5f"
+                    android:focusableInTouchMode="false" />
+
+
+                <EditText
+                    android:id="@+id/editText_DongCua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:hint="Dong Cua"
+                    android:paddingLeft="14dp"
+                    android:textSize="14sp"
+                    android:textColorHint="#6d6d6d"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textColor="#5f5f5f"
+                    android:focusableInTouchMode="false" />
+            </TableRow>
+        </TableRow>
+    </TableLayout>
+
+</FrameLayout>
